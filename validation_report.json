@@ -1,0 +1,70 @@
+{
+  "mode": "MODE B — SURGICAL UPDATE OF EXISTING .TEX",
+  "edition": "Final pre-circulation edition (editorial close-out after third amendment)",
+  "manuscript_date": "2026-10-12",
+  "pages": 48,
+  "main_numbered_sections": 18,
+  "appendices": 4,
+  "tables": 7,
+  "bibliography_entries": 32,
+  "previous_labels_preserved": 139,
+  "total_labels": 139,
+  "previous_display_environments_preserved_byte_for_byte": 101,
+  "bibliography_entries_byte_identical": true,
+  "bibliography_environment_byte_identical": false,
+  "bibliography_layout_only_change": "Local itemsep reduced by 2pt to prevent one isolated final reference on an otherwise empty 49th page; font, margins, entries and ordering unchanged.",
+  "main_section_titles_and_order_retained": true,
+  "previous_external_link_targets_retained": true,
+  "all_previous_numerical_output_keys_and_values_unchanged": true,
+  "verification_script_byte_identical_to_third_amendment": true,
+  "verification_script_sha256": "c6bafd9a4ac4fa0948c61a402a03c05a3dc41344d2658033d27b440d53570a5a",
+  "verification_output_sha256": "328ebdc87da169cc0b04da43d4f48e9107c59d19cc1dffa2f3938e6b8dc0489c",
+  "verification_execution": "Copied exact release script to an otherwise empty directory; executed as a standalone script under ordinary Python; JSON parsed and compared to all previous values.",
+  "verification_entry_point_guard_present": true,
+  "verification_suites_invoked_by_main": [
+    "verify_amendments",
+    "verify_second_amendment",
+    "verify_third_amendment"
+  ],
+  "python_version": "3.13.5",
+  "python_optimization_flag": 0,
+  "first_amendment_status": "All amendment checks passed",
+  "second_amendment_status": "All second-amendment checks passed",
+  "third_amendment_status": "All third-amendment checks passed",
+  "printed_precision_checks": {
+    "multifractal_table": true,
+    "torus_table": true,
+    "joint_kernel_rows": 7
+  },
+  "duplicate_labels": [],
+  "unresolved_source_references": [],
+  "undefined_citations": [],
+  "unused_bibliography_entries": [],
+  "latex_warnings": [],
+  "overfull_boxes": 0,
+  "underfull_boxes": 0,
+  "pdf_replacement_characters": 0,
+  "float_order": {
+    "table": [
+      25,
+      80.9487075805664
+    ],
+    "paragraph": [
+      25,
+      277.438232421875
+    ]
+  },
+  "primary_bibliographic_checks": {
+    "29": "APS record matched",
+    "30": "APS record matched",
+    "31": "Nature record matched",
+    "6_section_3_1": "core19 PDF page 595 / constituent printed page 7, Postulate 3.1 matched"
+  },
+  "visual_inspection": "All 48 final pages inspected in rendered contact sheets; edited Section 15.4 and Appendix D, and final references inspected at higher resolution. No clipping, overlap, replacement glyphs or isolated 49th-page reference observed. Table 5 remains before its discussion on page 25.",
+  "repository_deposit": {
+    "repository": "hyrucanji77/TCGS-SEQUENTION-protocol",
+    "status": "NOT DEPOSITED",
+    "reason": "Repository was read through GitHub; available connector actions are read-only and the runtime has no authenticated GitHub publishing CLI or Git credential helper. No remote write was attempted."
+  },
+  "scope": "Editorial close-out, fresh verification-script execution and targeted source checks. No new mathematical theorem, experimental result, unique-source identification, or publication acceptance claim."
+}

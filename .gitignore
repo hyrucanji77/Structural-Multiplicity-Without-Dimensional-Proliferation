@@ -1,0 +1,27 @@
+# Manuscript LaTeX sources are deliberately not published here.
+*.[tT][eE][xX]
+*.tex.*
+*.latex
+# Source diffs and source-bearing release archives must not be added.
+*.patch
+*.diff
+*Overleaf*.zip
+*OVERLEAF*.zip
+TCGS_Structural_Multiplicity_REPOSITORY_DEPOSIT.zip
+baseline/
+previous_amendment/
+second_amendment/
+third_amendment/
+# Local build and Python caches.
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.log
+*.out
+*.synctex.gz
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db

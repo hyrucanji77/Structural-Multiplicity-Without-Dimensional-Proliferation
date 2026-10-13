@@ -1,0 +1,581 @@
+{
+  "status": "All exact and numerical checks passed",
+  "data_type": "synthetic mathematical examples, not experimental data",
+  "graphs": {
+    "K33": {
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "edge_density": 0.6,
+      "laplacian": [
+        [
+          3,
+          0,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          3,
+          0,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          0,
+          0,
+          3,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          3,
+          0,
+          0
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          0,
+          3,
+          0
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          0,
+          0,
+          3
+        ]
+      ],
+      "spectrum": [
+        0,
+        3,
+        3,
+        3,
+        3,
+        6
+      ],
+      "triangles": 0,
+      "susceptibility": {
+        "1": {
+          "exact": "1/4",
+          "decimal": 0.25
+        },
+        "2": {
+          "exact": "1/5",
+          "decimal": 0.2
+        },
+        "4": {
+          "exact": "1/7",
+          "decimal": 0.14285714285714285
+        }
+      }
+    },
+    "prism": {
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          3
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "edge_density": 0.6,
+      "laplacian": [
+        [
+          3,
+          -1,
+          -1,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          3,
+          -1,
+          0,
+          -1,
+          0
+        ],
+        [
+          -1,
+          -1,
+          3,
+          0,
+          0,
+          -1
+        ],
+        [
+          -1,
+          0,
+          0,
+          3,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          0,
+          -1,
+          3,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          -1,
+          -1,
+          3
+        ]
+      ],
+      "spectrum": [
+        0,
+        2,
+        3,
+        3,
+        5,
+        5
+      ],
+      "triangles": 2,
+      "susceptibility": {
+        "1": {
+          "exact": "5/24",
+          "decimal": 0.20833333333333334
+        },
+        "2": {
+          "exact": "6/35",
+          "decimal": 0.17142857142857143
+        },
+        "4": {
+          "exact": "8/63",
+          "decimal": 0.12698412698412698
+        }
+      }
+    }
+  },
+  "spectral_example": [
+    {
+      "auxiliary_scale": 1e-06,
+      "epsilon": 0.01,
+      "d_s": 4.0
+    },
+    {
+      "auxiliary_scale": 0.0001,
+      "epsilon": 0.01,
+      "d_s": 3.9959165233312817
+    },
+    {
+      "auxiliary_scale": 0.001,
+      "epsilon": 0.01,
+      "d_s": 2.0036316646263623
+    },
+    {
+      "auxiliary_scale": 0.01,
+      "epsilon": 0.01,
+      "d_s": 2.0
+    },
+    {
+      "auxiliary_scale": 0.1,
+      "epsilon": 0.01,
+      "d_s": 2.0
+    },
+    {
+      "auxiliary_scale": 1.0,
+      "epsilon": 0.01,
+      "d_s": 1.9959165233312819
+    },
+    {
+      "auxiliary_scale": 10.0,
+      "epsilon": 0.01,
+      "d_s": 0.0036316646263622326
+    }
+  ],
+  "theta_cutoff_doubling_max_difference": 0.0,
+  "multifractal_example": [
+    {
+      "p": 0.5,
+      "D0": 4.0,
+      "D1": 4.0,
+      "D2": 4.0
+    },
+    {
+      "p": 0.65,
+      "D0": 4.0,
+      "D1": 3.934068055375491,
+      "D2": 3.8756718649977984
+    },
+    {
+      "p": 0.8,
+      "D0": 4.0,
+      "D1": 3.721928094887362,
+      "D2": 3.5563933485243853
+    },
+    {
+      "p": 0.95,
+      "D0": 4.0,
+      "D1": 3.286396957115956,
+      "D2": 3.144010302691519
+    }
+  ],
+  "fourball_comparison": {
+    "Q0": [
+      [
+        -12,
+        -5
+      ],
+      [
+        -5,
+        -4
+      ]
+    ],
+    "Q1": [
+      [
+        -12,
+        1
+      ],
+      [
+        1,
+        -2
+      ]
+    ],
+    "determinants": [
+      23,
+      23
+    ]
+  },
+  "synthetic_response_gap_kappa1": "1/24",
+  "synthetic_response_gap_kappa2": "1/35",
+  "amendment": {
+    "status": "All amendment checks passed",
+    "resolvent_traces": [
+      {
+        "kappa": "1/10",
+        "trace_K": "21660/1891",
+        "trace_prism": "127420/11067",
+        "gap": "40000/675087"
+      },
+      {
+        "kappa": "1/2",
+        "trace_K": "300/91",
+        "trace_prism": "1284/385",
+        "gap": "192/5005"
+      },
+      {
+        "kappa": "1",
+        "trace_K": "15/7",
+        "trace_prism": "13/6",
+        "gap": "1/42"
+      },
+      {
+        "kappa": "2",
+        "trace_K": "57/40",
+        "trace_prism": "201/140",
+        "gap": "3/280"
+      },
+      {
+        "kappa": "4",
+        "trace_K": "129/140",
+        "trace_prism": "233/252",
+        "gap": "1/315"
+      },
+      {
+        "kappa": "7/3",
+        "trace_K": "909/700",
+        "trace_prism": "10467/8008",
+        "gap": "243/28600"
+      },
+      {
+        "kappa": "10",
+        "trace_K": "489/1040",
+        "trace_prism": "367/780",
+        "gap": "1/3120"
+      },
+      {
+        "kappa": "100",
+        "trace_K": "31809/545900",
+        "trace_prism": "214261/3677100",
+        "gap": "1/9744315"
+      }
+    ],
+    "joint_kernel_exact_rows": [
+      {
+        "xi": "0",
+        "eta": "1/4",
+        "theta_in_units_pi_over_2": 0,
+        "gamma_real": "0",
+        "gamma_imag": "0",
+        "visibility_squared": "0"
+      },
+      {
+        "xi": "1/3",
+        "eta": "1/3",
+        "theta_in_units_pi_over_2": 0,
+        "gamma_real": "1/2",
+        "gamma_imag": "0",
+        "visibility_squared": "1/4"
+      },
+      {
+        "xi": "1/2",
+        "eta": "3/8",
+        "theta_in_units_pi_over_2": 0,
+        "gamma_real": "2/3",
+        "gamma_imag": "0",
+        "visibility_squared": "4/9"
+      },
+      {
+        "xi": "1/2",
+        "eta": "3/8",
+        "theta_in_units_pi_over_2": 1,
+        "gamma_real": "1/3",
+        "gamma_imag": "-1/3",
+        "visibility_squared": "2/9"
+      },
+      {
+        "xi": "1/2",
+        "eta": "3/8",
+        "theta_in_units_pi_over_2": 2,
+        "gamma_real": "0",
+        "gamma_imag": "0",
+        "visibility_squared": "0"
+      },
+      {
+        "xi": "1",
+        "eta": "1/2",
+        "theta_in_units_pi_over_2": 0,
+        "gamma_real": "1",
+        "gamma_imag": "0",
+        "visibility_squared": "1"
+      },
+      {
+        "xi": "1",
+        "eta": "1/2",
+        "theta_in_units_pi_over_2": 2,
+        "gamma_real": "0",
+        "gamma_imag": "0",
+        "visibility_squared": "0"
+      }
+    ],
+    "exact_quarter_turn_cases": 72,
+    "complex_grid_cases": 357,
+    "port_probability_cases": 7140,
+    "max_norm_error": 1.1102230246251565e-16,
+    "max_overlap_error": 3.3766115072321297e-16,
+    "max_isometry_error": 2.220446049250313e-16,
+    "max_port_error": 6.661338147750939e-16,
+    "held_out_test": {
+      "accessibility_calibration": "3/8",
+      "xi_inferred_without_coherence": "1/2",
+      "predicted_visibility_theta_zero": "2/3",
+      "hypothetical_foil_visibility": "9/10",
+      "gap": "7/30",
+      "example_error_allowance": "13/1000",
+      "foil_rejected": true
+    },
+    "scope": "Synthetic checks of a stipulated finite representation, not empirical ECL evidence"
+  },
+  "second_amendment": {
+    "status": "All second-amendment checks passed",
+    "common_efficiency_exact_cases": 136,
+    "calibrated_efficiency_mismatch_exact_cases": 544,
+    "uncertainty_interval_containment_cases": 680,
+    "explicit_domain_tests": 8,
+    "invalid_input_guards": 4,
+    "atomic_metric_ball_cases": 68,
+    "atomic_squared_distances": [
+      [
+        "2",
+        "10",
+        "2",
+        "10"
+      ],
+      [
+        "10",
+        "2",
+        "10",
+        "2"
+      ]
+    ],
+    "loss_completed_instrument_cases": 1768,
+    "relative_stability_cases": 1001,
+    "max_loss_isometry_error": 2.220446049250313e-16,
+    "max_loss_rate_error": 1.1102230246251565e-16,
+    "max_relative_overlap_error": 3.3306690738754696e-16,
+    "ten_percent_loss": {
+      "intrinsic_eta": "3/8",
+      "efficiency": "9/10",
+      "all_rate": "27/80",
+      "shared_rate": "9/40",
+      "relative_accessibility": "2/3",
+      "naive_xi": "7/20",
+      "naive_visibility": "14/27",
+      "exact_visibility_bias": "4/27",
+      "original_bound": "3/10",
+      "corrected_xi": "1/2",
+      "corrected_eta": "3/8"
+    },
+    "relative_held_out_test": {
+      "predicted_visibility": "2/3",
+      "hypothetical_visibility": "9/10",
+      "gap": "7/30",
+      "predeclared_example_tolerance": "1/50",
+      "rejected": true
+    },
+    "nonscalar_filter_counterexample": {
+      "xi": "1/2",
+      "theta": "pi",
+      "effect_diagonal": [
+        "1",
+        "1/4",
+        "1",
+        "1"
+      ],
+      "ideal_visibility": "0",
+      "filtered_visibility_exact": "1/3",
+      "calculated": 0.33333333333333337
+    },
+    "scope": "Conditional, synthetic instrument and measurement checks; no experimental-anchor implementation claimed"
+  },
+  "third_amendment": {
+    "status": "All third-amendment checks passed",
+    "generic_zero_phase_exact_cases": 63,
+    "general_split_exact_quarter_turn_cases": 1764,
+    "generic_complex_vector_cases": 3087,
+    "rescaling_complex_cases": 11466,
+    "rescaling_exact_cases": 234,
+    "accessibility_residual_interval_containment_cases": 63,
+    "exact_corrected_count_closure_cases": 336,
+    "invalid_input_guards": 5,
+    "max_norm_error": 4.440892098500626e-16,
+    "max_overlap_error": 3.3422138886441676e-16,
+    "max_rescaling_error": 4.460365043975677e-16,
+    "max_instrument_completion_error": 4.440892098500626e-16,
+    "reattribution": {
+      "relative_held_out_test_from_second_amendment": "Numerical rejection unchanged; it follows already from the identical-shared/orthogonal-private block class with balanced preparation and calibrated gates/losses, not specifically the chosen kernel.",
+      "zero_phase": "Generic block and measurement assumptions",
+      "phase_scan": "Equal shared split within the declared block and phase-action class",
+      "absolute_route": "Joint absolute-normalization consequence, not separate unique identification of the lift and reference weight",
+      "accessibility_only": "2 eta_A - eta_C = 1/2; independent absolute efficiency required; no coherence data and no substitution of model-inferred eta_A",
+      "independence": "Additional diagnostic, not statistically independent evidence; shared counts and calibration inputs must be propagated jointly."
+    },
+    "block_identity_foil": {
+      "eta_A": "3/8",
+      "eta_C": "1/4",
+      "rho": "2/3",
+      "private_inner_product": "7/80",
+      "private_normalized_overlap": "7/10",
+      "gamma_zero": "9/10",
+      "violates": "Private orthogonality",
+      "valid_broader_quantum_instrument": true
+    },
+    "unequal_split_foil": {
+      "eta_A": "3/8",
+      "eta_C": "1/4",
+      "rho": "2/3",
+      "omega": "3/4",
+      "accessibility_residual": "0",
+      "visibility_pi": "1/3",
+      "kernel_visibility_pi": "0",
+      "violates": "Equal shared split only, among these three structural tests"
+    },
+    "absolute_normalization_foil": {
+      "eta_A": "3/10",
+      "eta_C": "1/5",
+      "rho": "2/3",
+      "gamma": "(1+exp(-i theta))/3",
+      "accessibility_residual": "-1/10",
+      "kernel_eta_A": "3/8",
+      "route_A_visibility_zero": "1/3",
+      "actual_visibility_zero": "2/3",
+      "residual_interval": [
+        "-103/1000",
+        "-97/1000"
+      ],
+      "passes": "Block identity and entire equal-split relative phase curve",
+      "violates": "Absolute-normalization closure"
+    },
+    "valid_closure_interval": [
+      "-3/1000",
+      "3/1000"
+    ],
+    "coefficient_convention": "b(eta)=1-1/(4 eta); full gamma(0)=2 b(eta)",
+    "scope": "Synthetic checks and conditional proofs; no experimental verification or unique ECL identification."
+  }
+}

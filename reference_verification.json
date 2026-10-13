@@ -1,0 +1,61 @@
+{
+  "scope": "Targeted final bibliographic verification, not a new full-text audit of all 32 references.",
+  "checked_for_manuscript_date": "2026-10-12",
+  "29": {
+    "bib_key": "Zhang",
+    "title": "Tunable Einstein-Bohr Recoiling-Slit Gedankenexperiment at the Quantum Limit",
+    "journal": "Physical Review Letters",
+    "volume": 135,
+    "issue": 23,
+    "article_number": "230202",
+    "year": 2025,
+    "doi": "10.1103/93zb-lws3",
+    "publisher_online_date": "2025-12-02",
+    "issue_date": "2025-12-05",
+    "primary_source": "https://journals.aps.org/prl/abstract/10.1103/93zb-lws3",
+    "secondary_primary_record": "https://arxiv.org/abs/2410.10664",
+    "status": "Matched; no bibliography correction required"
+  },
+  "30": {
+    "bib_key": "Fedoseev",
+    "title": "Coherent and Incoherent Light Scattering by Single-Atom Wave Packets",
+    "journal": "Physical Review Letters",
+    "volume": 135,
+    "issue": 4,
+    "article_number": "043601",
+    "year": 2025,
+    "doi": "10.1103/zwhd-1k2t",
+    "publisher_online_date": "2025-07-22",
+    "issue_date": "2025-07-25",
+    "primary_source": "https://journals.aps.org/prl/abstract/10.1103/zwhd-1k2t",
+    "status": "Matched; no bibliography correction required"
+  },
+  "31": {
+    "bib_key": "Pedalino",
+    "title": "Probing quantum mechanics with nanoparticle matter-wave interferometry",
+    "journal": "Nature",
+    "volume": 649,
+    "issue": 8098,
+    "pages": "866-870",
+    "year": 2026,
+    "doi": "10.1038/s41586-025-09917-9",
+    "publisher_online_date": "2026-01-21",
+    "issue_date": "2026-01-22",
+    "primary_source": "https://www.nature.com/articles/s41586-025-09917-9",
+    "corroborating_institutional_record": "https://ucrisportal.univie.ac.at/en/publications/probing-quantum-mechanics-with-nanoparticle-matter-wave-interfero/",
+    "status": "Matched; no bibliography correction required"
+  },
+  "6_section_3_1": {
+    "bib_key": "TCGSMultifractal",
+    "title": "Multifractal Structure and Scale Invariance in Timeless Counterspace: A TCGS-SEQUENTION Synthesis with Geological, Palynological, and Galactic Empirical Anchors",
+    "section": "3.1 Formal Statement of Identity",
+    "postulate": "3.1 Singularity Identity Postulate (Source-Level)",
+    "source_file": "TCGS-SEQUENTION_core19(3).pdf",
+    "container_pdf_page": 595,
+    "printed_constituent_page": 7,
+    "verified_formula": "S = {g . p_0 : g in Aut(C,G,Psi)}",
+    "manuscript_compiled_bibliography_number": 6,
+    "status": "Pointer and group convention matched; no correction required"
+  },
+  "numbering_note": "230202 and 043601 are article numbers, not starting pages; 866-870 is a page range."
+}
